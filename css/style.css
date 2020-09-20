@@ -4,27 +4,27 @@
 }
 @font-face {
     font-family: "Gilory";
-    src: url("/media/fonts/Gilroy-Regular.ttf");
+    src: url("../media/fonts/Gilroy-Regular.ttf");
 }
 @font-face {
     font-family: "Gilory-Bold";
-    src: url("/media/fonts/Gilroy-Bold.ttf");
+    src: url("../media/fonts/Gilroy-Bold.ttf");
 }
 @font-face {
     font-family: "Gilory-Extrabold";
-    src: url("/media/fonts/Gilroy-Extrabold.ttf");
+    src: url("../media/fonts/Gilroy-Extrabold.ttf");
 }
 @font-face {
     font-family: "Gilory-Light";
-    src: url("/media/fonts/Gilroy-Light.ttf");
+    src: url("../media/fonts/Gilroy-Light.ttf");
 }
 @font-face {
     font-family: "Gilory-Semibold";
-    src: url("/media/fonts/Gilroy-Semibold.ttf");
+    src: url("../media/fonts/Gilroy-Semibold.ttf");
 }
 @font-face {
     font-family: "ProximaNova-Bold";
-    src: url("/media/fonts/ProximaNova-Bold.ttf");
+    src: url("../media/fonts/ProximaNova-Bold.ttf");
 }
 * {
 	margin: 0;
@@ -204,7 +204,7 @@ header > label {
 }
 #dashboard {
 	width: 100%;
-	background-image: url(/media/images/background.png);
+	background-image: url(../media/images/background.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	position: relative;
@@ -223,7 +223,7 @@ header > label {
 	z-index: 5;
 }
 .info ul {
-	list-style-image: url(/media/icons/tick.svg);
+	list-style-image: url(../media/icons/tick.svg);
 	margin-left: 25px;
 	z-index: 5;
 }
@@ -264,7 +264,7 @@ header > label {
 #questions {
 	width: 100%;
 	font-family: Gilory-Bold, sans-serif;
-	background-image: url(/media/icons/background.svg);
+	background-image: url(../media/icons/background.svg);
 	background-size: cover;
 	margin-top: 10px;
 }
@@ -349,7 +349,7 @@ header > label {
 	width: 100%;
 	height: 290px;
 	font-family: Gilory-bold, sans-serif;
-	background-image: url(/media/images/gapBackground.png);
+	background-image: url(../media/images/gapBackground.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	align-content: center;
@@ -376,7 +376,7 @@ header > label {
 }
 #advantages {
 	width: 100%;
-	background-image: url(/media/icons/advantagesBackground.svg);
+	background-image: url(../media/icons/advantagesBackground.svg);
 	background-position: center;
 	background-size: cover;
 	margin-top: 110px;
@@ -447,7 +447,7 @@ header > label {
 #education {
 	width: 100%;
 	margin-top: 110px;
-	background-image: url(/media/icons/educationBackground.svg);
+	background-image: url(../media/icons/educationBackground.svg);
 	background-position: center;
 	background-size: cover;
 }
@@ -498,7 +498,7 @@ header > label {
 	justify-content: center;
 }
 .important ul {
-	list-style-image: url(/media/icons/tick.svg);
+	list-style-image: url(../media/icons/tick.svg);
 	margin-left: 25px;
 	margin-right: 60px;
 	margin-bottom: 0;
@@ -678,7 +678,7 @@ header > label {
 #instruments {
 	width: 100%;
 	margin-top: 110px;
-	background-image: url(/media/icons/gridBackground.svg);
+	background-image: url(../media/icons/gridBackground.svg);
 	background-position: center;
 	background-size: cover;
 }
@@ -866,7 +866,7 @@ header > label {
 	width: 100%;
 	margin-top: 130px;
 	font-family: Gilory-Bold, sans-serif;
-	background-image: url(/media/icons/advantagesBackground.svg);
+	background-image: url(../media/icons/advantagesBackground.svg);
 	background-position: center;
 	background-repeat: no-repeat;
 }
@@ -1005,7 +1005,7 @@ header > label {
 	width: 100%;
 	height: 500px;
 	margin-top: 110px;
-	background-image: url(/media/images/contactsBackground.png);
+	background-image: url(../media/images/contactsBackground.png);
 	background-repeat: no-repeat;
 	background-position: center;
 	align-content: center;
@@ -1150,7 +1150,7 @@ footer li a:hover {
 	left: 0;
 	z-index: 1010;
 	opacity: 0;
-	background-image: url(/media/images/popupBackground.png);
+	background-image: url(../media/images/popupBackground.png);
 	-webkit-transition: all 0.7s;
 	-moz-transition: all 0.7s;
 	transition: all 0.7s;
@@ -1227,7 +1227,7 @@ footer li a:hover {
   left: 0;
   z-index: 1010;
   opacity: 0;
-  background-image: url(/media/images/popupBackground.png);
+  background-image: url(../media/images/popupBackground.png);
   -webkit-transition: all 0.7s;
   -moz-transition: all 0.7s;
   transition: all 0.7s;
@@ -1290,7 +1290,7 @@ footer li a:hover {
 		position: fixed;
 		width: 100%;
 		height: 100%;
-		background-image: url(/media/images/popupBackground.png);
+		background-image: url(../media/images/popupBackground.png);
 		z-index: 1000;
 		animation: sweep .7s ease-in-out;
 	}
@@ -1328,7 +1328,7 @@ footer li a:hover {
 		width: 40px;
 	}
 	#dashboard {
-		background-image: url(/media/icons/adaptiveBackground.svg);
+		background-image: url(../media/icons/adaptiveBackground.svg);
 		top: 0;
 		margin-top: 60px;
 	}
@@ -1369,7 +1369,7 @@ footer li a:hover {
 	}
 	#questions {
 		margin-top: 50px;
-		background-image: url(/media/icons/adaptiveBackground1.svg);
+		background-image: url(../media/icons/adaptiveBackground1.svg);
 		background-repeat: no-repeat;
 		background-position: right 25px top;
 		background-size: initial;
@@ -1686,7 +1686,7 @@ footer li a:hover {
 		z-index: 5;
 	}
 	.listener ul, .participant ul {
-		list-style-image: url(/media/icons/tick.svg);
+		list-style-image: url(../media/icons/tick.svg);
 		margin-left: 40px;
 	}
 	.listener li, .participant li {
